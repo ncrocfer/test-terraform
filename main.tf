@@ -1,13 +1,3 @@
-terraform {
-  backend "remote" {
-    organization = "ncrocfer"
-
-    workspaces {
-     name = "test-github"
-    }
-  }
-}
-
 provider "openstack" {
   domain_name = "default"
   alias = "ovh"
