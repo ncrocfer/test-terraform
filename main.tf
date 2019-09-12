@@ -19,7 +19,7 @@ variable "mykey" {
 
 resource "openstack_compute_keypair_v2" "mykey" {
   provider = "openstack.ovh"
-  name = "mykey"
+  name = "mykey-newname"
   public_key = var.mykey
 }
 
