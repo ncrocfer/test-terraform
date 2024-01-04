@@ -1,2 +1,4 @@
 resource "null_resource" "test" {}
-resource "null_resource" "test2" {}
+resource "null_resource" "nicolas" {}
+resource "null_resource" "ismail" {}
+resource "null_resource" "benoit" {}
